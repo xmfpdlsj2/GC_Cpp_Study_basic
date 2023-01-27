@@ -10,6 +10,8 @@ void Hanoi(int, char, char, char, int&);
 void ShowCurrentHonoiState(int[3][3]);
 void HanoiCheck(int[3][3], int = 0);
 
+void ExMain();
+
 int main()
 {
     //// 1번. 팩토리얼을 구하세요.
@@ -51,6 +53,8 @@ int main()
     //int aLine[3][3]{ {1,2,3}, {}, {} }, bLine[3]{}, cLine[3]{};
     //ShowCurrentHonoiState(aLine);
     //HanoiCheck(aLine);
+
+    ExMain();
 }
 
 // 1번
